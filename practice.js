@@ -26,3 +26,6 @@ for(let i = 1; i <= 10; i++) {
     console.log(`Ninja2 attacks Ninja1 and does a damage of${ninja2_dmg}! Ninja2 HP:${ninja2.hp}`);
 }
 
+let winner = (ninja1.hp > ninja2.hp) ? 'Ninja1' : 'Ninja2';
+console.log(' ')
+console.log('The winner is', winner + '!');
